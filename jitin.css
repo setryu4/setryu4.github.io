@@ -1,0 +1,8 @@
+#jitincard {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the div regardless of size */
+  background-color: rgb(248, 128, 238);
+  text-align: center; /* Center text within the div */
+}

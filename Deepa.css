@@ -1,0 +1,8 @@
+#deepacard {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the div regardless of size */
+  background-color: rgb(241, 38, 214);
+  text-align: center; /* Center text within the div */
+}
