@@ -1,0 +1,52 @@
+#titletop {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    tree-wrapper {
+      position:absolute;
+      width: 110vw;
+      height: 600px;
+      background: #ffffff;
+      background-image: url('https://media.istockphoto.com/id/1049071514/vector/family-tree-vector-icon-design.jpg?s=612x612&w=0&k=20&c=KRwZS75NePQhLjbyl-iPEK4Xj_rgAWSnVjb7tOnrvAk=');
+      background-size: cover;      /* scales the image to cover the whole area */
+      background-position: center; /* centers the image */
+      background-repeat: no-repeat; /* prevents tiling */
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .person {
+      position: absolute;
+      width: 140px;
+      height: 30px;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-size: 14px;
+    }
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+#4thfamilytree {
+  position:relative;
+  top: 5%;
+  left: 2%;
+}

@@ -1,0 +1,8 @@
+#damodarancard {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the div regardless of size */
+  background-color: rgb(250, 225, 113);
+  text-align: center; /* Center text within the div */
+}
